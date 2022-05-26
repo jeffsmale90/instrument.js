@@ -6,13 +6,13 @@ A tool for instrumenting JavaScript to help with performance analysis.
 Run the following to install dependencies:
 ```npm install```
 
-I have been using this tool via npm link, rather than publishing it to any npm registry. To do the following:
+I have been using this tool via npm link, rather than publishing it to any npm registry. To do the same, execute the following:
 
 ```npm link```
 
 From your project that you would like to instrument:
 
-```npm link instrument```
+```npm link instrument.js```
 
 ### Basic usage
 After integrating instrument.js into your project, when the node.js event "exit" is emitted, instrument.js will output usage summary information to the console.

@@ -1,0 +1,13 @@
+{
+  "name": "instrument.js",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {},
+  "author": "Jeff Smale<jeffsmale90@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cli-table": "^0.3.11",
+    "colors": "^1.4.0"
+  }
+}
